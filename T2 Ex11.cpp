@@ -3,11 +3,11 @@ using namespace std;
 
 int main(){
     int z,l,a,zc,lc,ac,v,c=0;
-    cout<<"Introdu anul de nastere:";
+    cout<<"Introdu anul nasterii:";
     cin>>a;
-    cout<<"Introdu luna de nastere:";
+    cout<<"Introdu luna nasterii:";
     cin>>l;
-    cout<<"Introdu ziua de nastere:";
+    cout<<"Introdu ziua nasterii:";
     cin>>z;
     cout<<"Introdu anul curent:";
     cin>>ac;
@@ -20,7 +20,6 @@ int main(){
     if((l<=12)&&(lc<=12)&&(z<=31)&&(zc<=31)){
     if(l<=lc){
         if(z<=zc){
-        cout<<"etc";
         c=1;
         }
     }
