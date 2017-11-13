@@ -16,7 +16,7 @@ int main(){
     cout<<"Introdu ziua curenta:";
     cin>>zc;
 
-    if((a<ac)||((a==ac)&&((l<lc)||((lc=l)&&(z<zc)))){
+    if((a<ac)||((a==ac)&&((l<lc)||((lc=l)&&(z<zc))))){
     if((l<=12)&&(lc<=12)&&(z<=31)&&(zc<=31)){
     if(l<=lc){
         if(z<=zc){
